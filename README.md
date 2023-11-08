@@ -1,0 +1,5 @@
+# Influence of species-level traits on the sensitivity of aerial insectivores' migration phenology to climate change
+
+This repository contains code that was used to process all of the data for this study (eBird data, species-level trait data, temperature data from the North American Regional Reanalysis, also called NARR, etc.) and run models to estimate the migration phenology of ten species of aerial insectivores in a temporally and spatially explicit manner, the sensitivity of this migration phenology to climate change, and the influence of species-level traits on this sensitivity. scripts_to_run_jobs contains R scripts that were used to run models on the OSCER supercomputer, and notebooks (bayesian_approach, specifically) contains Jupyter notebooks that were used to run models to estimate sensitivity and the influence of species-level traits on sensitivity. one-off_r_scripts contains additional R scripts that were used to process eBird data.
+
+The R scripts whose names start with a digit and a dash (in scripts_to_run_jobs) were adapted from scripts written by Casey Youngflesh (Youngflesh et al., 2021).
